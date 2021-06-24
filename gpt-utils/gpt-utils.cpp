@@ -55,7 +55,7 @@
 #include <cutils/log.h>
 #include <cutils/properties.h>
 #include "gpt-utils.h"
-#include <zlib.h>
+#include <zlib-ng.h>
 #include <endian.h>
 
 
