@@ -10,7 +10,7 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<!-- Pixel specific wifi overlays -->
+<!-- wifi overlays -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     coreApp="true"
     package="com.android.wifi.resources.xiaomi"

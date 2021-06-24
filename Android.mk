@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2021 The PixelExperience Project
+# Copyright (C) 2021 The XPerience Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #

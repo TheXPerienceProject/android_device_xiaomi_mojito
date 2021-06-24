@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2021 The PixelExperience Project
+# Copyright (C) 2021 XPerience Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
@@ -18,6 +18,8 @@ $(call inherit-product, frameworks/native/build/phone-xhdpi-6144-dalvik-heap.mk)
 
 # Get non-open-source specific aspects
 $(call inherit-product, vendor/xiaomi/mojito/mojito-vendor.mk)
+#$(call inherit-product, vendor/gapps/config.mk)
+$(call inherit-product, vendor/addons/apps/config.mk)
 
 # API
 PRODUCT_TARGET_VNDK_VERSION := 30
@@ -81,7 +83,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.capabilityconfigstore@1.0
 
 # Cryptfs
-PRODUCT_PACKAGES += \
+#PRODUCT_PACKAGES += \
     libcryptfs_hw \
     vendor.qti.hardware.cryptfshw@1.0
 
