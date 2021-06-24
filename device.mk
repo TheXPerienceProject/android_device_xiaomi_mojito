@@ -19,7 +19,7 @@ $(call inherit-product, frameworks/native/build/phone-xhdpi-6144-dalvik-heap.mk)
 # Get non-open-source specific aspects
 $(call inherit-product, vendor/xiaomi/mojito/mojito-vendor.mk)
 #$(call inherit-product, vendor/gapps/config.mk)
-$(call inherit-product, vendor/addons/apps/config.mk)
+#$(call inherit-product, vendor/addons/apps/config.mk)
 
 # API
 PRODUCT_TARGET_VNDK_VERSION := 30
