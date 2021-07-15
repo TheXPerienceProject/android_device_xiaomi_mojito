@@ -17,7 +17,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_keys.mk)
 $(call inherit-product, frameworks/native/build/phone-xhdpi-6144-dalvik-heap.mk)
 
 # Get non-open-source specific aspects
-$(call inherit-product, vendor/xiaomi/mojito/mojito.mk)
+$(call inherit-product, vendor/xiaomi/mojito/mojito-vendor.mk)
 #$(call inherit-product, vendor/gapps/config.mk)
 #$(call inherit-product, vendor/addons/apps/config.mk)
 
@@ -235,7 +235,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libnl
 
-PRODUCT_BOOT_JARS += \
+#PRODUCT_BOOT_JARS += \
     WfdCommon
 
 PRODUCT_COPY_FILES += \
